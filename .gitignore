@@ -1,0 +1,23 @@
+## Ignorar binarios y archivos temporales para proyectos Java
+bin/
+*.class
+*.log
+/.idea/
+.classpath
+.project
+.settings/
+target/
+out/
+*.iml
+/.vscode/
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+\.DS_Store
+
+# Maven/Gradle (por si acaso se usa en el futuro)
+/.mvn/
+/.gradle/
+build/
