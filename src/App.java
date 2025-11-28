@@ -50,3 +50,24 @@ class FizzBuzz {
         }
     }
 }
+
+// feat: Desafio FizzBuzz mejorada
+class FizzBuzzMejorada {
+    public static void main(String[] args) throws Exception {
+        for (int i = 1; i <= 100; i++) {
+            String resultado = "";
+
+            if (i % 3 == 0) {
+                resultado += "Fizz";
+            }
+            if (i % 5 == 0) {
+                resultado += "Buzz";
+            }
+            if (resultado.isEmpty()) {
+                resultado = Integer.toString(i);
+            }
+
+            System.out.println(resultado);
+        }
+    }
+}
