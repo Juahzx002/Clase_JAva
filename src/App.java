@@ -44,3 +44,21 @@ class OperacionesAritmeticas {
         }
     }
 }
+
+// Trabajar con números de punto flotante
+class OperacionesFlotantes {
+    // Método para sumar dos números de punto flotante
+    public double sumar(double a, double b) {
+        return a + b;
+    }
+
+    // Método para dividir dos números de punto flotante
+    public double dividir(double a, double b) {
+        if (b != 0) {
+            return a / b;
+        } else {
+            System.out.println("Error: División por cero");
+            return 0;
+        }
+    }
+}
