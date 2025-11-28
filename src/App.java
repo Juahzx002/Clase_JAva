@@ -75,3 +75,16 @@ class OperacionesCadenas {
         return a.length();
     }
 }
+
+// app Temperature Converter
+class TemperatureConverter {
+    // Método para convertir Celsius a Fahrenheit
+    public double celsiusAFahrenheit(double celsius) {
+        return (celsius * 9/5) + 32;
+    }
+
+    // Método para convertir Fahrenheit a Celsius
+    public double fahrenheitACelsius(double fahrenheit) {
+        return (fahrenheit - 32) * 5/9;
+    }
+}
