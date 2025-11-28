@@ -62,3 +62,16 @@ class OperacionesFlotantes {
         }
     }
 }
+
+// Trabajar con cadenas
+class OperacionesCadenas {
+    // Método para concatenar dos cadenas
+    public String concatenar(String a, String b) {
+        return a + b;
+    }
+
+    // Método para obtener la longitud de una cadena
+    public int longitud(String a) {
+        return a.length();
+    }
+}
